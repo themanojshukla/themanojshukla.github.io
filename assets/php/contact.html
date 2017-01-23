@@ -2,15 +2,16 @@
   <title>
     M.K. Shukla
   </title>
-  <body>
+  <body onload="redirect();">
     Sorry...!!! Service Desabled.<br>
     We are redirecting you to homepage.
   </body>
   <script>
-    $(window).load(function () {
-    window.setTimeout(function () {
-        window.location.href = "https:/themanojshukla.github.io";
-    }, 5000)
-});
+    function redirect(){
+      window.setTimeout(function(){
+      window.location.href = "https://www.google.co.in";
+    }, 5000);
+    }
+    
   </script>
 </html>
